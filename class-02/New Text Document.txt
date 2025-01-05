@@ -1,0 +1,168 @@
+1. list
+
+<h<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+, initial-scale=1.0">
+    <title>My web page</title>
+</head>
+<body>
+    <h1> SHOPPING LIST</h1>   
+    <h3>Order List</h3>
+<ol type="1"start="5" reversed>
+<li>apple</li>
+    <ul type="square">
+    <li>Iphone</li>
+    <li>Mackbook</li>
+     <li>I-mack</li>
+
+   </ul>
+
+    <li>samsung</li>
+    <ul type="square">
+       <li>Frize</li> j[0j
+        <li>TV</li>
+        <li>Mobile</li>
+
+
+    </ul>
+    <li>tushiba</li>
+    <li>Mitshubishi</li></ol>
+    <h3>UnOrder List</h3>
+    <ul type="square"><li>Mitshubishi</li>
+    <li>Mitshubishi</li>
+    <li>Mitshubishi</li>
+</ul>
+
+</body>
+</html>
+
+
+
+..............................here in order we choose unorder list apple ,samsung
+
+unorder list:
+<h1>Shopping list</h1>
+<ul type="A" start="5"; here type may be circle, square,disc
+reversed>
+<li>Watch</li>
+<li>Shirt</li>
+<li>Pant</li>
+<li>Underware</li>
+
+</ul>
+
+
+
+</body>
+
+# if i  want to link other html code:
+ Navbar:  <a href="link.html">Link learning page</a>
+
+
+2. link (connect youtube by link)start with anchor tag full video dekhte hobe
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web page_link</title>
+</head>
+<body>
+    <h1>Link tag</h1>
+# for create link we have to add anchor  tabe: (<a),(</a) & have to give href="for giving the link"
+ <a href="https://www.google.com/">Go to Google</a>
+    <a href="https://www.facebook.com/">Go to facebook</a><br><br>
+    <a href="https://www.linkedin.com/">Go to linkedin</a>
+
+# but if i want in new tab ,then we have to add target attribute
+ <a href="https://www.linkedin.com/" target="_blank">Go to linkedin</a>
+# if someone want to give mail
+<a href="mailto:roinbhuiyan0372@gmail.comb">If any queries , mail us</a>
+# if someone want to give mail with subject & body
+<a href="mailto:roinbhuiyan0372@gmail.comb"? subject="know yourself"&body="fsdfdsf" target="_blank">If any queries , mail with subject & body</a>
+# if i  want to link other html code:
+ Navbar:  <a href="list.html">List learning page</a>
+
+# if i want to go 2nd paragraph & , then have to provide id on 2nd pragraph & have to link in 1st parargraph , see in detail
+
+
+
+</body>
+</html>
+
+
+3. image & multimedia
+
+<img src="" alt=""> # no end tag
+# if image som how deleted , then we have to use alt & give meassage, also we can give height & width
+ <h2> Image Section</h2> 
+   <img src="https://scontent.frjh4-1.fna.fbcdn.net/v/t39.30808-6/291614578_537512621400020_5736433122744614858_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=j8UW5kZzBiQQ7kNvgErsY-S&_nc_zt=23&_nc_ht=scontent.frjh4-1.fna&_nc_gid=A2rGEd8NoByfFhoBiJNyg-Z&oh=00_AYCK5mL70HNRD1oAfTLtLNl1Ij95pIguHPj3dJAFnYMiEA&oe=677ED18E"
+    alt="here is nice black image"
+    height="300" width="500"
+    >
+# if i want to use a photo from html drive 
+<img src="image/DSC_6070.JPG" alt="this is a blue image"
+height="200", width="200">
+
+# addidg  Audio & video
+<h2> audio adding </h2>
+<audio  controls>
+
+<source src="01 - Tahsan - Alo (music.com.bd).mp3">
+<source src="01 - Tahsan - Alo (music.com.bd).wav">
+this audio is not supported  #if file
+</audio><br><br><br><br> 
+<h2> Video adding </h2>
+
+<video controls height="400">
+
+<source  src="IMG_1151.MOV"> 
+<source  src="IMG_1151.mp4"> 
+<source  src="IMG_1151.webm"> 
+ this video is not supported , #if file is not supported
+
+ 
+
+
+4. form
+
+<body>
+    <h3> Form tag </h3>
+    <form action="">
+
+<label for="username">Username:</label> 
+<input type="text" name="username" placeholder="Enter your name" required id="username"><br><br>
+<label for="password">Password:</label> 
+<input type="password" name="password" id="password"><br><br>
+<label for="email">Email:  </label>
+<input type="email" name="email" placeholder="Enter your email" required id="email"><br><br>
+
+<label for="company">Choose a Company :</label><br><br>
+<input type="radio" name="company"  >Apple<br>
+<input type="radio" name="company"  >Samsung<br><br>
+<label for="x">Are you like device:</label><br/>
+<input type="checkbox" name="x" id=" x"> Yes <br>
+
+# here for radion button , if name is not same , then both button will select, thats why we use 
+<input type="checkbox" name ="x"  id="x "> No <br><br>
+
+<label for="">write a message here :</label>
+<textarea name="" id=""></textarea> <br><br>
+<input type="submit" value="Send">
+
+ </form>
+
+
+
+</body>
+</html>
+
+
+5. 
+project:
